@@ -1,0 +1,20 @@
+#testing
+#testing this save with another language
+#Function to calculate area of rectangle
+calculate_area <- function(length, width) {
+  area <- length * width
+  return(area)
+}
+
+# Main program
+cat("Welcome to the Rectangle Area Calculator!\n")
+
+# Input for length and width
+length <- as.numeric(readline(prompt = "Enter the length of the rectangle: "))
+width <- as.numeric(readline(prompt = "Enter the width of the rectangle: "))
+
+# Calculate area using the function
+area <- calculate_area(length, width)
+
+# Output the result
+cat(paste("The area of the rectangle with length", length, "and width", width, "is:", area, "\n"))
