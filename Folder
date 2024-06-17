@@ -1,4 +1,4 @@
-# Function to calculate the area of a rectangle
+# Function to calculate the area of a rectangle!
 def calculate_area(length, width):
     area = length * width
     return area
